@@ -11,7 +11,7 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth/innerHeight,0.9
 
 camera.position.z=3
 scene.add(camera)
-
+//new scene added
 const canvas =  document.querySelector("canvas.threejs");
 const renderer = new THREE.WebGLRenderer({canvas});
 renderer.setSize(window.innerWidth,window.innerHeight)
